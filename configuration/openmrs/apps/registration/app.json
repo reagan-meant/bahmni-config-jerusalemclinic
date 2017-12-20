@@ -67,8 +67,6 @@
                 }
             },
             "fieldValidation" : {
-                "primaryContact" : {"pattern" : "[0-9]{8,8}", "errorMessage" : "Should be 8 characters"},
-                "secondaryContact" : {"pattern" : "[0-9]{8,8}", "errorMessage" : "Should be 8 characters"},
                 "familyName" : {"pattern" : "[a-zA-Z ]{0,}", "errorMessage" : "Should contain characters"},
                 "givenName" : {"pattern" : "[a-zA-Z ]{0,}", "errorMessage" : "Should contain characters"},
                 "middleName" : {"pattern" : "[a-zA-Z ]{0,}", "errorMessage" : "Should contain characters"}
