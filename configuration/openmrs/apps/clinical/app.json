@@ -116,6 +116,39 @@
             "Accepted Family Planning methods": {
                 "multiSelect": true
             },
+            "GHC_Reason for Visit": {
+                "multiSelect": true
+            },
+            "GHC_Actions for symptoms taken": {
+                "multiSelect": true
+            },
+            "GHC_Partner sex": {
+                "multiSelect": true
+            },
+            "GHC_Microscopy": {
+                "multiSelect": true
+            },
+            "GHC_Urine Dipstick": {
+                "multiSelect": true
+            },
+            "GHC_Vaginal Study Diagnosis": {
+                "multiSelect": true
+            },
+            "GHC_Vaginal Study Treatment": {
+                "multiSelect": true
+            },
+            "GHC_Vaginal Study Results From Lab": {
+                "multiSelect": true
+            },
+            "GHC_Types of medications currently on": {
+                "multiSelect": true
+            },
+            "GHC_EKG Interpretation": {
+                "multiSelect": true
+            },
+            "GHC_Patient enrollment reason": {
+                "multiSelect": true
+            },
             "defaults": {
                 "Number of living children": 1,
                 "Accepted Family Planning methods": [
