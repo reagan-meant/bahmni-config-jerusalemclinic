@@ -148,17 +148,6 @@
     "order": 2,
     "requiredPrivilege": "app:clinical"
   },
-    "bahmniClinicalConceptSetGroupObservationsCardioStudy": {
-    "id": "bahmni.clinical.conceptSetGroup.observations.cardiostudy",
-    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
-    "type": "config",
-    "extensionParams": {
-      "conceptName": "Cardiovascular Studies",
-      "default": true
-    },
-    "order": 4,
-    "requiredPrivilege": "app:clinical"
-  },
     "bahmniClinicalConceptSetGroupObservationsVaccination": {
     "id": "bahmni.clinical.conceptSetGroup.observations.vaccination",
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
@@ -167,7 +156,7 @@
       "conceptName": "Vaccination History",
       "default": true
     },
-    "order": 5,
+    "order": 3,
     "requiredPrivilege": "app:clinical"
   },
     "bahmniClinicalConceptSetGroupObservationsLabSamples": {
@@ -178,7 +167,51 @@
       "conceptName": "Lab Samples",
       "default": true
     },
+    "order": 4,
+    "requiredPrivilege": "app:clinical"
+  },
+    "bahmniClinicalConceptSetGroupObservationsCardioStudy": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.cardiostudy",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "conceptName": "Cardiovascular Studies",
+      "default": true
+    },
+    "order": 5,
+    "requiredPrivilege": "app:clinical"
+  },
+    "bahmniClinicalConceptSetGroupObservationsCardioStudy": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.cardiostudy",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "conceptName": "Cardiovascular Studies",
+      "default": true
+    },
     "order": 6,
+    "requiredPrivilege": "app:clinical"
+  },
+    "bahmniClinicalConceptSetGroupObservationsVaginalDischargeStudy": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.vaginaldischargestudy",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "conceptName": "GHC_Vaginal Discharge Study Form",
+      "default": true
+    },
+    "order": 7,
+    "requiredPrivilege": "app:clinical"
+  },
+    "bahmniClinicalConceptSetGroupObservationsEchoStudy": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.echostudy",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "conceptName": "GHC_Echo Study Form",
+      "default": true
+    },
+    "order": 8,
     "requiredPrivilege": "app:clinical"
   },
   "bahmniClinicalConceptSetGroupObservationsSecondVitals": {
