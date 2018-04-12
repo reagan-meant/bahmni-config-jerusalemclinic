@@ -131,13 +131,13 @@
             "GHC_Urine Dipstick": {
                 "multiSelect": true
             },
-            "GHC_Vaginal Study Diagnosis": {
+            "GHC_Vaginal Discharge Study Diagnosis": {
                 "multiSelect": true
             },
-            "GHC_Vaginal Study Treatment": {
+            "GHC_Vaginal Discharge Study Treatment": {
                 "multiSelect": true
             },
-            "GHC_Vaginal Study Results From Lab": {
+            "GHC_Vaginal Discharge Study Results From Lab": {
                 "multiSelect": true
             },
             "GHC_Types of medications currently on": {
