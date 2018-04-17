@@ -274,7 +274,27 @@
                     }
                 }
             },
- "Laboratory":{
+            "studies":{  
+                "translationKey":"DASHBOARD_TITLE_ECHO_STUDY_KEY",
+                "type":"vitals",
+                "isObservation":true,
+                "displayOrder":14,
+                "dashboardConfig":{  
+                    "showDetailsButton":true,
+                    "conceptNames":[
+                        "GHC_Patient enrolled in"
+                    ]
+                },
+                "expandedViewConfig":{  
+                    "conceptNames":[  
+                        "GHC_Echo Study Form"
+                    ],
+                    "showDetailsButton":true,
+                    "pivotTable":{
+                    }
+                }
+            },
+            "Laboratory":{
                 "translationKey":"DASHBOARD_TITLE_LABORATORY_KEY",
                 "type":"vitals",
                 "isObservation":true,
@@ -306,7 +326,7 @@
                     }
                 }
             },            
-"gynaecology":{  
+            "gynaecology":{  
                 "translationKey":"DASHBOARD_TITLE_GYNAECOLOGY_KEY",
                 "type":"gynaecology",
                 "isObservation":true,
