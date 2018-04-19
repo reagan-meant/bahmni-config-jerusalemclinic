@@ -4,7 +4,7 @@
   <artifactId>bahmni-config-haiti</artifactId>
   <name>Bahmni config for GHC Haiti</name>
   <description>Bahmni configuration for Global Health Coalition Haiti</description>
-  <version>1.1.0-SNAPSHOT</version>
+  <version>1.1.0</version>
   <packaging>pom</packaging>
 
   <developers>
