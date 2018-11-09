@@ -294,6 +294,26 @@
                     }
                 }
             },
+            "studies":{  
+                "translationKey":"DASHBOARD_TITLE_COMMUNITY_SURVEY",
+                "type":"vitals",
+                "isObservation":true,
+                "displayOrder":15,
+                "dashboardConfig":{  
+                    "showDetailsButton":true,
+                    "conceptNames":[
+                        "GHC_Community Survey Form"
+                    ]
+                },
+                "expandedViewConfig":{  
+                    "conceptNames":[  
+                        "GHC_Community Survey Form"
+                    ],
+                    "showDetailsButton":true,
+                    "pivotTable":{
+                    }
+                }
+            },
             "Laboratory":{
                 "translationKey":"DASHBOARD_TITLE_LABORATORY_KEY",
                 "type":"vitals",

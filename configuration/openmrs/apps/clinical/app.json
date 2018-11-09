@@ -158,6 +158,33 @@
                 "Pain management given": true,
                 "Safe Abortion, Remarks": "Remarks",
                 "Malaria, Death Date": "2015-12-01"
+            },
+            "GHC_Healthcare previously received, where": {
+                "multiSelect": true
+            },
+            "GHC_Source of water": {
+                "multiSelect": true
+            },
+            "GHC_Last medical visit location": {
+                "multiSelect": true
+            },
+            "GHC_Medical condition mentionned the past year": {
+                "multiSelect": true
+            },
+            "GHC_Type of cancer": {
+                "multiSelect": true
+            },
+            "GHC_Birth control methods used": {
+                "multiSelect": true
+            },
+            "GHC_Birth control methods used": {
+                "multiSelect": true
+            },
+            "GHC_Reasons for not using birth control": {
+                "multiSelect": true
+            },
+            "GHC_Physical Measurements": {
+                "allowAddMore": true
             }
         },
         "visitPage": {
