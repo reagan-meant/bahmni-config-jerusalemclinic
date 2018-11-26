@@ -229,7 +229,7 @@
                     }
                 }
             },
-            "studies":{  
+            "echoStudy":{  
                 "translationKey":"DASHBOARD_TITLE_ECHO_STUDY_KEY",
                 "type":"vitals",
                 "isObservation":true,
@@ -249,7 +249,7 @@
                     }
                 }
             },
-            "studies":{  
+            "communitySurvey":{  
                 "translationKey":"DASHBOARD_TITLE_COMMUNITY_SURVEY",
                 "type":"vitals",
                 "isObservation":true,
@@ -257,7 +257,7 @@
                 "dashboardConfig":{  
                     "showDetailsButton":true,
                     "conceptNames":[
-                        "GHC_Community Survey Form"
+                        "GHC_Type of housing"
                     ]
                 },
                 "expandedViewConfig":{  

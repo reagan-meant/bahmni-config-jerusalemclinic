@@ -219,7 +219,7 @@
                     }
                 }
             },
-             "Vaccination History":{  
+            "Vaccination History":{  
                 "translationKey":"DASHBOARD_TITLE_VACCINATION_HISTORY_KEY",
                 "type":"vitals",
                 "isObservation":true,
@@ -241,7 +241,7 @@
                         "numberOfVisits":"10",
                         "groupBy":"encounters",
                         "obsConcepts":[  
-                           ],
+                        ],
                         "drugConcepts":[  
 
                         ],
@@ -278,7 +278,7 @@
                 "translationKey":"DASHBOARD_TITLE_ECHO_STUDY_KEY",
                 "type":"vitals",
                 "isObservation":true,
-                "displayOrder":14,
+                "displayOrder":15,
                 "dashboardConfig":{  
                     "showDetailsButton":true,
                     "conceptNames":[
@@ -294,25 +294,15 @@
                     }
                 }
             },
-            "communitySurvey":{  
-                "translationKey":"DASHBOARD_TITLE_COMMUNITY_SURVEY",
-                "type":"vitals",
-                "isObservation":true,
-                "displayOrder":15,
-                "dashboardConfig":{  
-                    "showDetailsButton":true,
-                    "conceptNames":[
-                        "GHC_Community Survey Form"
-                    ]
+            "formsDisplay": {
+                "type": "forms",
+                "displayOrder": 16,
+                "dashboardConfig": {
+                    "title": null,
+                    "maximumNoOfVisits": 10
                 },
-                "expandedViewConfig":{  
-                    "conceptNames":[  
-                        "GHC_Community Survey Form"
-                    ],
-                    "showDetailsButton":true,
-                    "pivotTable":{
-                    }
-                }
+                "formGroup": ["GHC_Community Survey Form"],
+                "translationKey": "DASHBOARD_TITLE_COMMUNITY_SURVEY"
             },
             "Laboratory":{
                 "translationKey":"DASHBOARD_TITLE_LABORATORY_KEY",
@@ -336,7 +326,7 @@
                         "numberOfVisits":"10",
                         "groupBy":"encounters",
                         "obsConcepts":[
-                           ],
+                        ],
                         "drugConcepts":[
 
                         ],
@@ -441,7 +431,7 @@
                     }
                 }
             },
-             "admissionDetails":{  
+            "admissionDetails":{  
                 "translationKey":"DASHBOARD_TITLE_ADMISSION_DETAILS_KEY",
                 "type":"admissionDetails",
                 "displayOrder":19,
