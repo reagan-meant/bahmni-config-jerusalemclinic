@@ -274,27 +274,17 @@
                     }
                 }
             },
-            "echoStudy":{  
-                "translationKey":"DASHBOARD_TITLE_ECHO_STUDY_KEY",
-                "type":"vitals",
-                "isObservation":true,
-                "displayOrder":15,
-                "dashboardConfig":{  
-                    "showDetailsButton":true,
-                    "conceptNames":[
-                        "GHC_Patient enrolled in"
-                    ]
+            "echoStudy": {
+                "type": "forms",
+                "displayOrder": 15,
+                "dashboardConfig": {
+                    "title": null,
+                    "maximumNoOfVisits": 10
                 },
-                "expandedViewConfig":{  
-                    "conceptNames":[  
-                        "GHC_Echo Study Form"
-                    ],
-                    "showDetailsButton":true,
-                    "pivotTable":{
-                    }
-                }
+                "formGroup": ["GHC_Echo Study Form"],
+                "translationKey": "DASHBOARD_TITLE_ECHO_STUDY_KEY"
             },
-            "formsDisplay": {
+            "communitySurvey": {
                 "type": "forms",
                 "displayOrder": 16,
                 "dashboardConfig": {
