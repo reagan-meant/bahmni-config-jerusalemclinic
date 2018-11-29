@@ -1,9 +1,9 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.globalhealthcoalition</groupId>
-  <artifactId>bahmni-config-haiti</artifactId>
-  <name>Bahmni config for GHC Haiti</name>
-  <description>Bahmni configuration for Global Health Coalition Haiti</description>
+  <artifactId>bahmni-config-jerusalemclinic</artifactId>
+  <name>Bahmni config - Jerusalem Clinic</name>
+  <description>Bahmni configuration for the Jerusalem Clinic distribution</description>
   <version>1.1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
