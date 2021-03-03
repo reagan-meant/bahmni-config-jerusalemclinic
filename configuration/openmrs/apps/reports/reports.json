@@ -1,6 +1,7 @@
 {
    "Diagnosis": {
         "name": "Coded and Non-coded Diagnoses Entered",
+        "requiredPrivilege": "app:reports",
         "type": "MRSGeneric",
         "config": {
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/diagnosis.sql"
@@ -8,6 +9,7 @@
     },   
 "obsCannedReport": {
     "name": "Patient Characteristics",
+    "requiredPrivilege": "app:reports",
  "type": "obsCannedReport",
  "config": {
       "patientAttributes": ["occupation"],
@@ -20,6 +22,7 @@
 },
  "visitReport10": {
         "name": "Visit Report",
+        "requiredPrivilege": "app:reports",
         "type": "visits",
         "config": {
             "forDataAnalysis": true,
@@ -45,6 +48,7 @@
 
     "chiefComplaintReport": {
         "name": "Chief Complaint Report",
+        "requiredPrivilege": "app:reports",
         "type": "obsCount",
         "config": {
             "ageGroupName": "All Ages",
@@ -60,6 +64,7 @@
     },
     "outpatientMorbidity": {
         "name": "Outpatient Morbidity",
+        "requiredPrivilege": "app:reports",
         "type": "diagnosisCount",
         "config": {
             "visitTypes": [
@@ -69,10 +74,12 @@
     },
     "laboratoryServices": {
         "name": "Laboratory Services",
+        "requiredPrivilege": "app:reports",
         "type": "TestCount"
     },
     "genericLaboratoryServices": {
         "name": "Generic Laboratory Services",
+        "requiredPrivilege": "app:reports",
         "type": "ElisGeneric",
         "config": {
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/testCount.sql"
@@ -80,6 +87,7 @@
     },
     "genericOutpatientMorbidity": {
         "name": "Generic Outpatient Morbidity",
+        "requiredPrivilege": "app:reports",
         "type": "MRSGeneric",
         "config": {
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/diagnosisCountOPD.sql"
@@ -87,6 +95,7 @@
     },
     "bloodPressure": {
         "name": "Blood Pressure",
+        "requiredPrivilege": "app:reports",
         "type": "obsCount",
         "config": {
             "ageGroupName": "All Ages",
@@ -104,6 +113,7 @@
     },
     "smokingHistoryReport": {
         "name": "Smoking History Report",
+        "requiredPrivilege": "app:reports",
         "type": "obsCount",
         "config": {
             "ageGroupName": "All Ages",
@@ -116,6 +126,7 @@
     },
     "vitalsTemplateReport": {
         "name": "Vitals Template Report",
+        "requiredPrivilege": "app:reports",
         "type": "obsTemplate",
         "config": {
             "templateName": "Vitals",
@@ -127,6 +138,7 @@
     },
     "tuberculosisIntakeTemplateReport": {
         "name": "Tuberculosis Intake Template Report",
+        "requiredPrivilege": "app:reports",
         "type": "obsTemplate",
         "config": {
             "templateName": "Tuberculosis Intake Template"
@@ -134,6 +146,7 @@
     },
     "diabetes": {
         "name": "Diabetes",
+        "requiredPrivilege": "app:reports",
         "type": "obsCount",
         "config": {
             "ageGroupName": "All Ages",
@@ -148,6 +161,7 @@
     },
     "codedValueRangeBasedReport": {
         "name": "Coded Value Range Based Report",
+        "requiredPrivilege": "app:reports",
         "type": "obsCount",
         "config": {
             "ageGroupName": "All Ages",
@@ -159,10 +173,12 @@
     },
     "OPD/IPDVisitCount": {
         "name": "OPD/IPD Visit Count",
+        "requiredPrivilege": "app:reports",
         "type": "IpdOpdVisitCount"
     },
     "haemoglobinRangeBasedReport": {
         "name": "Haemoglobin Range Based Report",
+        "requiredPrivilege": "app:reports",
         "type": "NumericConceptValuesCount",
         "config": {
             "rangeGroupName": "Haemoglobin",
@@ -175,6 +191,7 @@
     },
     "tuberculosisTreatmentCompletionDates": {
         "name": "Tuberculosis Treatment Completion dates",
+        "requiredPrivilege": "app:reports",
         "type": "DateConceptValuesPatientsList",
         "config": {
             "conceptNames": [
@@ -185,6 +202,7 @@
     },
     "patientsListWithRapidHIV(Blood)TestsResults": {
         "name": "Patients list with Rapid HIV (Blood) tests results",
+        "requiredPrivilege": "app:reports",
         "type": "PatientsWithLabtestResults",
         "config": {
             "conceptNames": [
@@ -198,6 +216,7 @@
     },
    "nutritionProgramNutritionalStatusOfRegisteredChildren": {
         "name": "Nutrition Program - Nutritional status of registered children",
+        "requiredPrivilege": "app:reports",
         "type": "obsCount",
         "config": {
             "ageGroupName": "All Ages",
@@ -210,6 +229,7 @@
     },
     "CardiovascularStudyStateCountReport": {
         "name": "Cardiovascular Study Stage Count Report",
+        "requiredPrivilege": "app:reports",
         "type": "programStateCount",
         "config": {
             "programName": "Cardiovascular Study"
@@ -217,6 +237,7 @@
     },
     "CardiovascularStudyStateReport": {
         "name": "Cardiovascular Study Stage Report",
+        "requiredPrivilege": "app:reports",
         "type": "PatientProgramReport",
         "config": {
             "programName": "Cardiovascular Study"
@@ -224,6 +245,7 @@
     },
     "CardiovascularStudyStateTransitionReport": {
         "name": "Cardiovascular Study Stage Transition Report",
+        "requiredPrivilege": "app:reports",
         "type": "programStateTransitionReport",
         "config": {
             "programName": "Cardiovascular Study"
@@ -231,6 +253,7 @@
     },
     "programPatientStateReport": {
         "name": "Vaginal Discharge Study Stage Report",
+        "requiredPrivilege": "app:reports",
         "type": "PatientProgramReport",
         "config": {
             "programName": "Vaginal Discharge Study"
@@ -238,14 +261,17 @@
     },
     "patientReport": {
         "name": "Patient Information",
+        "requiredPrivilege": "app:reports",
         "type": "PatientReport"
     },
     "drugOrderReport": {
         "name": "Drug Order report",
+        "requiredPrivilege": "app:reports",
         "type": "DrugOrder"
     },
     "SampleGenericProgramReport": {
         "name": "Program Report",
+        "requiredPrivilege": "app:reports",
         "type": "programs",
         "config": {
             "patientAttributes": [
@@ -267,6 +293,7 @@
     },
     "pivotReportOfVisits": {
         "name": "Aggregation report for visits",
+        "requiredPrivilege": "app:reports",
         "type": "aggregation",
         "config": {
             "report":{
@@ -305,6 +332,7 @@
     },
     "pivotReportForPrograms": {
         "name": "Program Pivot Report",
+        "requiredPrivilege": "app:reports",
         "type": "aggregation",
         "config": {
             "report": {
@@ -340,6 +368,7 @@
     },
   "GenericLabOrderReport": {
     "name": "Lab Order Results",
+    "requiredPrivilege": "app:reports",
     "type": "labOrders",
     "config": {
       "patientAttributes": [
@@ -372,6 +401,7 @@
   },
   "GenericLabOrderReportAggregation": {
     "name": "Test Name vs Gender",
+    "requiredPrivilege": "app:reports",
     "type": "aggregation",
     "config": {
       "report": {
