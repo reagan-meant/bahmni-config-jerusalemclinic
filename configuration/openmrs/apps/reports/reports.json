@@ -166,7 +166,7 @@
         "config": {
             "ageGroupName": "All Ages",
             "conceptNames": [
-                "Diabetes, Cormorbidities"
+                "Comorbidities, Diabetes"
             ],
             "countOncePerPatient": "true"
         }
@@ -206,7 +206,7 @@
         "type": "PatientsWithLabtestResults",
         "config": {
             "conceptNames": [
-                "Rapid HIV (Blood)"
+                "Rapid HIV"
             ],
             "testOutcome": [
                 "abnormal",
